@@ -8,4 +8,4 @@
  ### Hint: 
  The Cape Crusader is ALWAYS watching!!!! Enjoy.
 
- ![screenshot](asset/images/Untitled.png)
+ ![screenshot](assets/images/Untitled.png)
