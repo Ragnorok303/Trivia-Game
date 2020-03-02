@@ -3,20 +3,16 @@ html {
 }
 
 body {
-  background-color: rgb(18,23,65);
+  background-image: url("../images/batman3.jpg"); 
+  background-size: cover;
   text-align: center;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Diplomata SC', sans-serif;
 }
 
-header, main {
-  background-color: rgb(40,53,147);
-  color: white;
-}
 
 header {
   font-size: 3em;
   line-height: 300%;
-  border-bottom: 2px solid rgb(47,100,178);
   text-shadow: -1px 0 rgb(47,100,178), 0 1px rgb(47,100,178), 1px 0 rgb(47,100,178), 0 -1px rgb(47,100,178);
 }
 
@@ -24,8 +20,9 @@ main {
   width: 80%;
   margin: 5% auto auto auto;
   border-radius: 25px;
-  border: 2px solid rgb(47,100,178);
   font-size: 1.2em;
+  color: rgb(232,198,39);
+  text-shadow: -1px 0 rgb(47,100,178), 0 1px rgb(47,100,178), 1px 0 rgb(47,100,178), 0 -1px rgb(47,100,178);
 }
 
 #introDiv {
@@ -62,7 +59,7 @@ main {
 }
 
 .image {
-  border: 1px solid white;
+  border: 1px solid rgb(47,100,178);
   width: 350px;
   height: 275px;
   margin: 1.5%;

@@ -1,12 +1,84 @@
 gameObject = {
     questionArray: [
         {
-            question: "What is Batman?",
+            question: "What super villain once broke Batman's back, leaving him crippled and wheelchair-bound?",
             answer: {
-                wrong: ["bat", "mutant", "rich"],
-                correct: "ninja"
+                wrong: ["Joker", "Ra's Al Ghul", "Killer Croc"],
+                correct: "Bane"
             },
-            image: "<img src='assets/images/' class='image'>"
+            image: "<img src='assets/images/Bane.gif' class='image'>"
+        },
+        {
+            question:"What was Bat-hound's name?",
+            answer:{
+                wrong:["Fiddo","Max","Champ"],
+                correct:"Ace"
+            },
+            image:"<img src='assets/images/Ace.gif' class='image'>"
+        },
+        {
+            question:"What were the names of Bruce Wayne's parents?",
+            answer:{
+                wrong:["Wayne & Alice","George & Elane","James & Elizabeth"],
+                correct:"Thomas & Martha"
+            },
+            image:"<img src='assets/images/Parents.gif' class='image'>"
+        },
+        {
+            question:"Which of the following characters did Bruce Wayne have a son with?",
+            answer:{
+                wrong:["Catwoman","Poison Ivy","Vesper Fairchild"],
+                correct:"Tailia Al Ghul"
+            },
+            image:"<img src='assets/images/Thailia.gif' class='image'>"
+        },
+        {
+            question:"What former District Attorney became the villain known as Two-Face?",
+            answer:{
+                wrong:["Jason Blood","Floyd Lawton","Eward Nygma"],
+                correct:"Harvey Dent"
+            },
+            image:"<img src='assets/images/Two-Face.gif' class='image'>"
+        },
+        {
+            question:"Who killed Jason Todd (the second Robin)?",
+            answer:{
+                wrong:["Two-Face","Batman","Bane"],
+                correct:"Joker"
+            },
+            image:"<img src='assets/images/Joker.gif' class='image'>"
+        },
+        {
+            question:"What Batman villain lost his beloved wife Nora to a terminal illness?",
+            answer:{
+                wrong:["Scarecrow","Two-Face","Ra's Al Ghul"],
+                correct:"Mr.Freeze"
+            },
+            image:"<img src='assets/images/MR.Freeze.gif' class='image'>"
+        },
+        {
+            question:"What member of the Batman family became Oracle?",
+            answer:{
+                wrong:["Catwoman","Batwoman","Huntress"],
+                correct:"Batgirl"
+            },
+            image:"<img src='assets/images/Batgirl.gif' class='image'>"
+        },
+        {
+            question:"What animal masks did the Terrible Trio wear?",
+            answer:{
+                wrong:["Tiger, Wolf & Bear","Cat, Dog & Mouse","Loin, Ox & Eagle"],
+                correct:"Shark, Fox & Vulture"
+            },
+            image:"<img src='assets/images/Trio.gif' class='image'>"
+        },
+        {
+            question:"What Batman villain was murdered and thrown into Slaughter Swamp?",
+            answer:{
+                wrong:["Onyx","Jackanapes","Copperhead"],
+                correct:"Solomon Grundy"
+            },
+            image:"<img src='assets/images/Solomon.gif' class='image'>"
         },
     ],
 
