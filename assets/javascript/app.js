@@ -54,7 +54,7 @@ gameObject = {
                 wrong:["Scarecrow","Two-Face","Ra's Al Ghul"],
                 correct:"Mr.Freeze"
             },
-            image:"<img src='assets/images/MR.Freeze.gif' class='image'>"
+            image:"<img src='assets/images/Mr.Freeze.gif' class='image'>"
         },
         {
             question:"What member of the Batman family became Oracle?",
