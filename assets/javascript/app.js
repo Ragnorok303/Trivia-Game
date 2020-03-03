@@ -112,7 +112,7 @@ gameObject = {
         $("<div/>").attr("id", "buttonContainer").appendTo("main");
         $("<button>", { text: "Start", id: "startBtn", class: "button" }).appendTo("#buttonContainer");
         $("<button>", { text: "Play Again", id: "resetBtn", class: "button" }).appendTo("#buttonContainer");
-        $("<button>", { text: "Next Question", id: "nextBtn", class: "button" }).appendTo("#buttonContainer"); // need to remove
+        $("<button>", { text: "Next Question", id: "nextBtn", class: "button" }).appendTo("#buttonContainer"); 
     },
 
     start: function () {
@@ -211,7 +211,7 @@ gameObject = {
         this.right++;
         $("#correct").text(this.right);
         $("#question").hide();
-        $("#resultText").text("Nice job! " + gameObject.questionArray[gameObject.index].answer.correct + " was the right answer!");
+        $("#resultText").text("Good Job! " + gameObject.questionArray[gameObject.index].answer.correct + " was the right answer!");
         $("#resultImg").html(gameObject.questionArray[gameObject.index].image);
         this.checkArray();
     },
